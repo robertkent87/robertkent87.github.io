@@ -1,0 +1,68 @@
+body {}
+
+.vespertilio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+.flittermouse {
+    max-width: 467px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin: 0;
+    line-height: 1.3;
+}
+
+header p {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin: 0 0 2rem 0;
+}
+
+details summary{
+    color: Indigo;
+    text-decoration: underline 2px;
+    cursor: pointer;
+}
+
+details summary:hover,
+details summary:active,
+details summary:focus {
+    color: DarkGreen;
+    text-decoration-style: wavy;
+
+}
+
+a {
+    padding: 0.3rem 0.9rem;
+    border: 2px solid Indigo;
+    background-color: Lavender;
+    box-shadow: 4px 4px 0 0 Plum;
+    border-radius: 5px;
+    color: Indigo;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto 2rem auto;
+    will-change: transform;
+    backface-visibility: hidden;
+    transition: 0.3s ease all;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: DarkGreen;
+    border-color: DarkGreen;
+    background-color: MintCream;
+    box-shadow: 0 0 0 0 DarkSeaGreen;
+    transform: translate(4px, 4px);
+
+}
